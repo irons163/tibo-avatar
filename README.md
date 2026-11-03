@@ -2,7 +2,7 @@
 
 一個 Codex skill：以本人照片作為身分來源，參考內建 Tibo 圖片的人物位置、臉部朝向、姿勢、表情和拍攝感，製作寫實大頭照。
 
-![Tibo 姿勢參考圖](assets/tibo-reference.png)
+![Tibo 姿勢參考圖](assets/tibo-reference-photo.jpg)
 
 ## 特色
 
@@ -10,7 +10,9 @@
 - 參考自然露齒笑、黑色圓領上衣與暖色背景；預設為 1:1 正方形照片，滿版且不加圓框。
 - 依照片內區比對頭頂、眼睛、下巴、領口與肩膀位置，避免自動置中或放大胸肩。
 - 已認可成品可針對身體位置或指定角度局部調整；只修臉的面向時，分別處理左右轉臉與俯仰，保留歪頭及胸肩。
-- 內建原始參考圖、放大檢視圖、中文提示詞與成品核對項目。
+- 優先使用 400×400、無圓框的同一張姿勢照片；保留小圖與其放大版作對照，避免把放大尺寸當作新增細節。
+- 初次重建以 Tibo 照片作姿態模板，本人照作唯一身分來源；不把原照的側身或俯仰帶入成品。
+- 內建中文提示詞、局部面向修正範本與成品核對項目。
 
 ## 安裝
 
@@ -24,8 +26,10 @@ skills/
     ├── SKILL.md
     ├── agents/openai.yaml
     └── assets/
+        ├── tibo-reference-photo.jpg
         ├── tibo-reference.png
-        └── tibo-reference-detail.png
+        ├── tibo-reference-detail.png
+        └── tibo-reference-source.json
 ```
 
 安裝方式可參考 [OpenAI 的 Codex skill 範例](https://developers.openai.com/cookbook/examples/codex/iterating-development-workflows-with-codex)。

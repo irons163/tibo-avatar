@@ -1,0 +1,12 @@
+{
+  "asset": "tibo-reference-photo.jpg",
+  "sourcePage": "https://x.com/thsottiaux",
+  "sourceImage": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV.jpg",
+  "provenance": "Copied without image editing from the existing my-tibo/public/tibo-x-avatar.jpg; that project records retrieval on 2026-10-14 in data/image-sources.json.",
+  "size": [
+    400,
+    400
+  ],
+  "relationship": "Same portrait as the small circular tibo-reference.png; use this clearer, unframed version for pose inspection.",
+  "notAIUpscaled": true
+}
