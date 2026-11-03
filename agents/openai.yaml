@@ -1,4 +1,4 @@
 interface:
   display_name: "Tibo 風格大頭照"
-  short_description: "保留本人五官，逐項匹配 Tibo 人物位置、臉部轉向及頭頸肩姿勢"
-  default_prompt: "請用 $tibo-avatar，保留我的五官，依 Tibo 原圖的人物與身體位置、臉部轉向與俯仰、歪頭及頭頸肩姿勢修這張照片；匹配黑衣、背景與笑容，不加圓框。"
+  short_description: "保留人物或角色及原畫風，參考 Tibo 面向、頭肩姿勢與笑容"
+  default_prompt: "請用 $tibo-avatar，保留上傳人物或角色的特徵與原有畫風，參考 Tibo 的面向、歪頭、頭頸肩姿勢、黑衣、暖色背景與笑容製作大頭照，不加圓框。"
